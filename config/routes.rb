@@ -1,6 +1,7 @@
 DemoApp::Application.routes.draw do
   resources :microposts
 
+root to: 'microposts#new'
 
   resources :users
 
